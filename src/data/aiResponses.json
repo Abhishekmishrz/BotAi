@@ -1,0 +1,11 @@
+[
+    {
+      "question": "What is the weather like today?",
+      "response": "The weather today is sunny with a high of 25°C."
+    },
+    {
+      "question": "Tell me a joke.",
+      "response": "Why don't scientists trust atoms? Because they make up everything!"
+    }
+  ]
+  

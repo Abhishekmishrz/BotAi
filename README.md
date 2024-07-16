@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# Chat with AI Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## How to Start the Service
+1. Clone the repository: `git clone https://github.com/yourusername/chat-app.git`
+2. Navigate to the project directory: `cd chat-app`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm start`
+5. Open the application in your browser at `http://localhost:3000`
 
-## Available Scripts
+## How to Use the Application
+- Type your message in the chat input box and press enter to chat with the AI model.
+- Provide feedback on AI responses by hovering over them and clicking thumbs up or thumbs down.
+- At the end of the conversation, rate the conversation out of 5 and provide subjective feedback.
+- View past conversations and feedback from the conversation history panel.
+- Switch between dark and light modes using the toggle button.
 
-In the project directory, you can run:
+## Technical Choices
+- **React**: For building the user interface.
+- **Material-UI**: For pre-built UI components and consistent styling.
+- **localStorage**: For storing conversations and feedback locally.
 
-### `npm start`
+## Design Choices
+- **Material-UI**: Chosen for its extensive component library and ease of use.
+- **Dark/Light Mode**: Implemented to enhance user experience.
+- **Feedback Overview**: Designed to provide an easy way to view and filter feedback.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Trade-offs
+- Used localStorage for simplicity. For a production app, consider using a backend service.
+- Limited testing due to time constraints. More comprehensive tests could be added.
+- Focused on core functionality; additional features could be added with more time.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Deployed Application
+- [Live Demo on Vercel](https://your-vercel-link.vercel.app)
